@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- boxIcons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Responsive Portfolio | DivyaSri</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu bx-tada bx-rotate-90 bx-lg'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Divya Sri</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link" onclick="move()">Skills</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home section" id="home">
+
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="img/profile.jpg" alt="">
+                    </div>
+
+                    <h5>THIS IS ME</h5>
+                    <h1 class="home__title">M DIVYA SRI</h1>
+                    <span class="home__profession">An enthusiastic <b>Web Developer</b> trying to pave her way towards
+                        enriching web..</span>
+
+                    <div class="home__social">
+                        <a href="#" class="home__social-link"><i class='bx bxl-linkedin-square bx-tada-hover'></i></a>
+                        <a href="#" class="home__social-link"><i class='bx bxl-facebook-circle bx-tada-hover'></i></a>
+                        <a href="#" class="home__social-link"><i class='bx bxl-twitter bx-tada-hover'></i></a>
+                        <a href="#" class="home__social-link"><i class='bx bxl-github bx-tada-hover'></i></a>
+                    </div>
+
+                    <a download="" href="#" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+
+            <div class="section-subtitle">My Intro</div>
+            <div class="section-title">About Me</div>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Hi , I am a passionate Web Developer.Innovative optimized solution
+                        seeker.Excited to be at the deployment phase of my new career as a web developer.
+
+                    </p>
+                    <img class="about__img" src="img/profile.jpg" alt="">
+                </div>
+
+                <div class="about__information">
+                    <h3 class="about__information-title">Information</h3>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-user about__information-icon'></i>
+                        <span>Divya Sri</span>
+
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-phone about__information-icon'></i>
+                        <span>987654321</span>
+
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-envelope about__information-icon'></i>
+                        <span>name@email.com</span>
+
+                    </div>
+                </div>
+
+                <div class="about__information">
+                    <h3 class="about__information-title">Work Experience and Support</h3>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-medal about__information-icon'></i>
+                        <div>
+                            <span class="about__information-subtitle">2 years Job </span>
+                            <span class="about__information-subtitle-small">Experience</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-briefcase about__information-icon'></i>
+                        <div>
+                            <span class="about__information-subtitle">frontend and backend projects</span>
+                            <span class="about__information-subtitle-small">Completed</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information-data">
+                        <i class='bx bx-support about__information-icon'></i>
+                        <div>
+                            <span class="about__information-subtitle">Support</span>
+                            <span class="about__information-subtitle-small">Online 24/7</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My Expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__bootstrap"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">React</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">HTML</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__css"></span>
+                    </div>
+
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">NodeJS</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">SQL</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__sql"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">MongoDB</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__mongo"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">OOPS</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__oops"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">DataStructures</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__ds"></span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!--===== EDUCATION =====-->
+
+        <section class="education section" id="education">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2014-2018</h3>
+                        <span class="education__university">G PullaReddy Engineering College, Kurnool</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">B Tech in Computer Science and Engineering</h3>
+                        <span class="education__university"></span>
+                    </div>
+
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2012-2014</h3>
+                        <span class="education__university">VijayaRatna Junior College, Hyderabad</spn>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Intermediate in MPC</h3>
+                        <span class="education__university"></span>
+                    </div>
+
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2002-2012</h3>
+                        <span class="education__university">Sri Sathya Sai Higher Secondary School, Puttaparthi</spn>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Schooling</h3>
+                        <span class="education__speciality"></span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--===== SERVICES =====-->
+
+
+        <!--===== PROJECT IN MIND =====-->
+
+        <!--===== WORKS =====-->
+
+
+
+
+        <div class="modal-overlay" id="modal-overlay"></div>
+
+        <div class="modal" id="modal">
+            <button class="close-button" id="close-button"><i class='bx bxs-x-circle bx-lg'></i></button>
+            <div class="modal-guts">
+                <div class="project-title">
+                    <h1></h1>
+                </div>
+                <div class="project-desc">
+                    <p>
+                    </p>
+                </div><br>
+                <h3 class="project-title">Technologies Used</h3>
+                <div class="project-tech"></div>
+                <br>
+                <div class="project-info__action">
+                    <a href="#" target="_blank" class="button project__action project-weblink">Visit Website</a>
+                    <a href="#" target="_blank" class="button project__action project-gitlink">View Code</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="works section" id="works">
+            <span class="section-subtitle">My Portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="project/cricket.png" alt="Cricket Game">
+
+                    <div class="works__data">
+                        <span class="works__title">Cricket Game</span>
+                        <div class="button works_home__button open-button" onclick="openModal(0)">
+                            Learn More
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="works__img">
+                    <img src="project/calci.png" alt="calculator">
+
+
+                    <div class="works__data">
+                        <span class="works__title">Calculator</span>
+                        <div class="button works_home__button open-button" onclick="openModal(1)">
+                            Learn More
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="works__img">
+                    <img src="project/music.png" alt="musicPlayer">
+
+                    <div class="works__data">
+                        <span class="works__title">Music Album</span>
+                        <div class="button works_home__button open-button" onclick="openModal(2)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="project/news.png" alt="news">
+
+                    <div class="works__data">
+                        <span class="works__title">NewsPaper</span>
+                        <div class="button works_home__button open-button" onclick="openModal(3)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="project/todo.png" alt="news">
+
+                    <div class="works__data">
+                        <span class="works__title">Todo App</span>
+                        <div class="button works_home__button open-button" onclick="openModal(4)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="project/tvoops.png" alt="tvRemote">
+
+                    <div class="works__data">
+                        <span class="works__title">TV</span>
+                        <div class="button works_home__button open-button" onclick="openModal(5)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="project/weatherReport.png" alt="weatherReport">
+
+                    <div class="works__data">
+                        <span class="works__title">Weather Report</span>
+                        <div class="button works_home__button open-button" onclick="openModal(6)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="project/newyork.png" alt="newyorktimesNews">
+
+                    <div class="works__data">
+                        <span class="works__title">NewYork Times News</span>
+                        <div class="button works_home__button open-button" onclick="openModal(7)">
+                            Learn More
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== CONTACT =====-->
+        <div class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch </h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" class="contact__input" placeholder="Name">
+                        <input type="mail" class="contact__input" placeholder="Email">
+                    </div>
+                    <input type="text" name="" id="" placeholder="Project" class="contact__input">
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call Me</h3>
+                        <span class="contact__text">987654321</span>
+                        <span class="contact__text">987654321</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Email</h3>
+                        <span class="contact__text">name@email.com</span>
+                        <span class="contact__text">name@email.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">India</span>
+                        <span class="contact__text">India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Divya Sri</h1>
+            <p class="footer__description">I am Divya and this is my personal website.</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-google-plus'></i></a>
+            </div>
+
+            <p class="footer__copy">All rights reserved by @DM-2020</p>
+        </div>
+
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
